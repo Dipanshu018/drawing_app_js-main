@@ -32,7 +32,7 @@ colors.forEach((color) => {
 
 fillColor.addEventListener("change", function () {
   selectedFill = fillColor.checked ? true : false;
-  console.log(selectedFill);
+  // console.log(selectedFill);
 });
 
 tools.forEach((tool) => {
@@ -49,7 +49,7 @@ tools.forEach((tool) => {
 
 brushSize.addEventListener("change", function () {
   selectedSize = brushSize.value;
-  console.log(selectedSize);
+  // console.log(selectedSize);
 });
 
 function cleanCanvas() {
