@@ -54,6 +54,7 @@ canvas {
 }
 
 .box-title {
+  padding-left: 5px;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -77,6 +78,11 @@ ul li {
   color: var(--color);
   font-weight: bold;
   cursor: pointer;
+}
+
+#brush-size {
+  margin-top: 8px;
+  width: 180px;
 }
 
 .colors .options {
@@ -132,9 +138,15 @@ li.selected {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
+  color: black;
 }
 
-#save {
+.buttons button:hover{
+  background-color: var(--color);
+
+}
+
+/* #save {
   background-color: var(--color);
   color: #fff;
   border: none;
@@ -142,4 +154,4 @@ li.selected {
 
 .credits {
   color: #fff;
-}
+} */
